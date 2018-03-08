@@ -1,0 +1,232 @@
+/* line 1, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_base.scss */
+body {
+  background: linear-gradient(70deg, #d9fed2, #def7f5);
+}
+
+/* line 6, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+#teaSec {
+  margin-top: 150px;
+  margin-bottom: 110px;
+}
+
+/* line 11, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 16, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+.col-lg {
+  width: 100%;
+  height: auto;
+  /*background-image: url(neven-krcmarek-330546-unsplash.jpg);*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  margin: 20px;
+}
+
+/* line 27, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+.col-body {
+  width: 100%;
+  height: 250px;
+  /*background-color: pink;*/
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* line 38, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+.col-footer {
+  width: 100%;
+  height: auto;
+  background-color: #78C2AD;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 5px;
+}
+
+/* line 46, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+.col-footer span {
+  width: 10%;
+  float: right;
+  /*margin-right: 10px;*/
+  background-color: #78C2AD;
+}
+
+/* line 56, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+#bldream {
+  background-image: url(../img/morgan-sessions-6264-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 61, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+#wtbrw {
+  background-image: url(../img/monika-grabkowska-452370-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 66, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_col.scss */
+#phrfav {
+  background-image: url(../img/neonbrand-335257-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 3, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_hidden.scss */
+.col-hidden {
+  width: 100%;
+  height: auto;
+  background-color: #E9ECEC;
+  display: none;
+}
+
+/* line 8, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_hidden.scss */
+.col-hidden p {
+  padding: 10px;
+}
+
+/* line 11, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_hidden.scss */
+.col-hidden button {
+  margin: 10px;
+}
+
+/* line 18, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_hidden.scss */
+.sechidden {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  background-color: #DEDEDE;
+  padding: 10px;
+  display: none;
+}
+
+/* line 25, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_hidden.scss */
+.sechidden button {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 0;
+}
+
+/* line 37, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_hidden.scss */
+#btn-hid-wt {
+  /*display:none;*/
+}
+
+/* line 4, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_jumbotron.scss */
+.jumbotron {
+  background-image: url("../img/neven-krcmarek-330546-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 7, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_jumbotron.scss */
+.jumbotron p {
+  color: black;
+}
+
+/*.carousel-inner {
+  width: 100%;
+  height: 450px !important;
+}
+
+.d-block{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}*/
+/* line 31, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_mixins.scss */
+#carsl-con::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 17, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_carosel.scss */
+#caroselSec {
+  width: 50%;
+  margin-top: 100px;
+  float: left;
+}
+
+/* line 23, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_carosel.scss */
+#textSec {
+  width: 40%;
+  margin-top: 200px;
+  margin-left: 50px;
+  float: right;
+}
+
+/* line 2, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_buttons.scss */
+.fa-angle-double-down {
+  color: #DEDEDE;
+}
+
+/* line 4, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_buttons.scss */
+.fa-angle-double-down:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 5, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_mediaQ.scss */
+  #caroselSec {
+    width: 100%;
+    clear: both;
+  }
+  /* line 9, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_mediaQ.scss */
+  #textSec {
+    width: 100%;
+    clear: both;
+    margin-top: 40px;
+  }
+}
+
+/* line 1, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_footer.scss */
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #78C2AD;
+  margin-top: 200px;
+}
+
+/* line 8, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_footer.scss */
+.form-ft {
+  width: 70%;
+  padding: 80px;
+  color: #fff;
+  margin-left: 15%;
+}
+
+/* line 13, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_footer.scss */
+.form-ft h4 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 17, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_footer.scss */
+.form-ft button {
+  width: 30%;
+  margin-left: 35%;
+}
+
+/* line 24, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_footer.scss */
+#icon-ft {
+  width: 20%;
+  margin-left: 45%;
+  margin-right: 55%;
+  padding-bottom: 20px;
+}
+
+/* line 29, C:/Users/mufff/Desktop/web dev 2018/whims_tea/scss/_footer.scss */
+#icon-ft a {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=../css/main.map */

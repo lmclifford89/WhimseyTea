@@ -1,0 +1,10 @@
+@import "mixins";
+
+
+.jumbotron{
+	background-image: url("../img/neven-krcmarek-330546-unsplash.jpg");
+	@include bg-pics;
+  p{
+    color: black;
+  }
+}

@@ -1,0 +1,39 @@
+@import "variables";
+
+.col-hidden{
+	width: $main-width;
+	height: auto;
+	background-color: $col_cart;
+	display:none;
+  p{
+    padding: 10px;
+  }
+  button{
+  	margin: 10px;
+  }
+}
+
+
+
+.sechidden{
+	width: $main-width;
+	height: 80px;
+	margin-top: 10px;
+	background-color:$col_box;
+	padding: 10px;
+	display:none;
+  button {
+  	color: $font_wt;
+  	text-align: center;
+  	font-size: 1.5rem;
+  	margin-left: 0;
+
+  }
+
+}
+
+
+
+#btn-hid-wt{
+	/*display:none;*/
+}

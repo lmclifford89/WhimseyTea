@@ -1,0 +1,69 @@
+@import "variables";
+@import "mixins";
+
+
+
+#teaSec{
+  margin-top: 150px;
+  margin-bottom: 110px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.col-lg{
+	width: $main-width;
+	height: auto;
+	//background-color: $col_box;
+	/*background-image: url(neven-krcmarek-330546-unsplash.jpg);*/
+	/*background-size: cover;*/
+	/*background-position: center;*/
+	margin: 20px;
+
+}
+
+.col-body{
+	width: $main-width;
+	height: 250px;
+	/*background-color: pink;*/
+  //background-image: url(../img/neven-krcmarek-330546-unsplash.jpg);
+   @include bg-pics;
+   @include border-radius-top(10px);
+
+}
+
+
+.col-footer{
+	width: $main-width;
+	height: auto;
+	background-color: $col_title;
+  font-family: $main_font;
+	font-size: 1.5rem;
+  color: $font_wt;
+  padding: 5px;
+  span{
+  	width: 10%;
+  	float: right;
+  	/*margin-right: 10px;*/
+  	background-color: $col_title;
+   //@include border-radius-bottom(10px);
+  }
+    // @include border-radius-bottom(10px);
+}
+
+#bldream{
+  background-image: url(../img/morgan-sessions-6264-unsplash.jpg);
+  @include bg-pics;
+}
+
+#wtbrw{
+  background-image: url(../img/monika-grabkowska-452370-unsplash.jpg);
+  @include bg-pics;
+}
+
+#phrfav{
+  background-image: url(../img/neonbrand-335257-unsplash.jpg);
+  @include bg-pics;
+}
